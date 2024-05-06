@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	margin-top: -20px;
+	background: #222;
+	margin-top: 14px;
+	color: white;
+}
+
+.currbalance {
+	color: #6285bf;
+	font-size: 30px;
+}

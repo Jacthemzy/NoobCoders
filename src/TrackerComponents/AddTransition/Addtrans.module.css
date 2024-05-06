@@ -1,0 +1,99 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	background: #000;
+	overflow: hidden;
+}
+
+.toprow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #222;
+	color: #fff;
+
+	height: 35px;
+	padding: 10px;
+}
+.title {
+	margin-bottom: 20px;
+}
+.exitBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-weight: bold;
+	background: none;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+.exitBtn svg {
+	transform: rotate(180deg);
+	background: none;
+}
+.exitBtn svg g {
+	fill: white;
+}
+
+.form {
+	/* background: red; */
+	/* margin: 20px 30px; */
+	padding: 0 15px;
+	color: #fff;
+	width: 100%;
+	margin-top: 20px;
+	display: grid;
+}
+.form input {
+	padding: 10px 5px;
+	background: #000;
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	color: #fff;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.addBtn {
+	width: 40vw;
+	padding: 10px;
+	border: none;
+	outline: none;
+	background: rgb(15, 148, 130);
+	color: #fff;
+	font-size: 16px;
+	box-shadow: 0px 2px 3px 3px rgba(6, 58, 51, 0.637);
+	cursor: pointer;
+	margin-top: 20px;
+}
+input[type="date"] {
+	background: black;
+	margin-top: -2px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	background-color: rgb(15, 148, 130);
+	width: 17px;
+	height: 17px;
+	margin-right: 10vw;
+}
+
+.select {
+	border: none;
+	padding: 3px;
+	margin: 10px 0px;
+	background: black;
+	border-bottom: 1px solid #999;
+	color: white;
+	outline: none;
+	margin-bottom: 35px;
+	font-size: 16px;
+}
+.choose {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

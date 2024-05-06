@@ -1,0 +1,30 @@
+.income,
+.expense {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background: #222;
+	width: 100%;
+
+	list-style: none;
+	padding: 0px 5px;
+	border-left: 3px solid green;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.expense {
+	border-left: 3px solid red;
+}
+.incomeAmount {
+	color: rgb(13, 228, 13);
+}
+.expenseAmount {
+	color: rgb(245, 17, 17);
+}
+.deleteIcon {
+	margin-top: 25px;
+	font-size: 25px;
+	color: red;
+}

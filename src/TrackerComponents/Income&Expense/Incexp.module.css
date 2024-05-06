@@ -1,0 +1,61 @@
+.container {
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background: #222; */
+	margin-top: 14px;
+}
+.incomeBox,
+.expenseBox {
+	width: 45vw;
+	height: 100px;
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	color: white;
+	background: #222;
+	position: relative;
+}
+
+.incometitle,
+.expensetitle {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+.incomeAmount,
+.expenseAmount {
+	margin: 10px 10px;
+	font-size: 20px;
+	color: red;
+}
+.incomeAmount {
+	color: rgb(1, 252, 1);
+}
+.expenseBox .circle {
+	background: rgba(151, 13, 13, 0.514);
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background-color: rgba(27, 235, 27, 0.301);
+	border-radius: 50%;
+	padding: 10px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.incomeBox .circle svg {
+	fill: rgb(1, 252, 1);
+	transform: rotate(180deg);
+}
+.expenseBox .circle svg {
+	fill: red;
+	transform: rotate(360deg);
+}
